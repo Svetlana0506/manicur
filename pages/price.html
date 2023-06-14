@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="../css/style.css">
+    <link rel="stylesheet" href="./price.css">
+    <!--название страницы-->
+    <title>Website of the manicure master</title>
+    <script async src="../js/script"></script>
+</head>
+
+<body class="page">
+    <header class="header">
+        <img class="logo-name" src="../images/logotip.png" alt="Logo">
+        <nav>
+            <ul class="menu">
+                <li>
+                    <a class="menu__link" href="../index.html">Главная</a>
+                </li>
+                <li>
+                    <a class="menu__link " href="../index.html#section">Обо мне</a>
+                </li>
+                <li>
+                    <a class="menu__link" href="../pages/price.html">Наименование услуги</a>
+                </li>
+                <li>
+                    <a class="menu__link" href="../index.html#list">Преимущество</a>
+                </li>
+                <li>
+                    <a class="menu__link" href="../index.html#card">Контакты</a>
+                </li>
+                <li>
+                    <a class="menu__link" href="../index.html#reviews">Отзывы</a>
+                </li>
+                <li class="phone__button">
+                    <a class="menu__link menu-phone" href="tel:79233735200">+7 923-373-52-00</a>
+                    <a class="about__button about_button animation-button" href="https://wa.me/79233735200">Свяжись со мной</a>
+                </li>
+            </ul>
+            <div class="burger-menu">
+                <button class="burger-menu__buton"></button>
+                <ul class="burger-menu__list hide-burger">
+                    <li class="burger-menu__item">
+                        <a class="burger-menu__link" href="../index.html">Главная</a>
+                    </li>
+                    <li class="burger-menu__item">
+                        <a class="burger-menu__link" href="../index.html#section">Обо мне</a>
+                    </li>
+                    <li class="burger-menu__item">
+                        <a class="burger-menu__link" href="../pages/price.html">Наименование услуги</a>
+                    </li> 
+                    <li class="burger-menu__item">
+                        <a class="burger-menu__link" href="#list">Преимущество</a>
+                    </li>
+                    <li class="burger-menu__item">
+                        <a class="burger-menu__link" href="#card">Контакты</a>
+                    </li>
+                    <li class="burger-menu__item">
+                        <a class="burger-menu__link" href="#reviews">Отзывы</a>
+                    </li>
+                    <li class="phone__button">
+                        <a class="menu__link menu-phone" href="tel:79233735200">+7 923-373-52-00</a>
+                        <a class="about__button about_button animation-button" href="https://wa.me/79233735200">Свяжись со мной</a>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+    <ul class="price">
+                <li class="price__lists">
+            <h2 class="price__headings">ПРАЙС ЛИСТ</h2>
+        </li>
+    </ul>
+    <section class="intro section">
+    <div class="carousel">
+        <button class="carousel-button next" onclick="onNext();">&#187;</button>
+        <button class="carousel-button prev" onclick="onPrev();">&#171;</button>
+        <ul class="slides">
+            <li class="slide" data-active>
+                <img class="slide__image" src="../images/photo1.jpg" alt="photo gallery">
+            </li>
+            <li class="slide">
+                <img class="slide__image" src="../images/photo2.jpg" alt="photo gallery">
+            </li>
+            <li class="slide">
+                <img class="slide__image" src="../images/photo3.jpg" alt="photo gallery">
+            </li>
+            <li class="slide">
+                <img class="slide__image" src="../images/photo5.jpg" alt="photo gallery">
+            </li>
+            <li class="slide">
+                <img class="slide__image" src="../images/photo6.jpg" alt="photo gallery">
+            </li>
+            <li class="slide">
+                <img class="slide__image" src="../images/photo7.jpg" alt="photo gallery">
+            </li>
+            <li class="slide">
+                <img class="slide__image" src="../images/photo9.jpg" alt="photo gallery">
+            </li>
+            <li class="slide">
+                <img class="slide__image" src="../images/nogti4.jpg" alt="photo gallery">
+             </li>
+             <li class="slide">
+                <img class="slide__image" src="../images/nogti5.jpg" alt="photo gallery">
+            </li>
+        </ul>
+    </div>
+    <div class="intro__link">
+        <h1 class="intro__heading">
+            МАНИКЮР
+         </h1>
+         <p class="intro__text">МАНИКЮР____________________________800руб.</p>
+         <p class="intro__text">МОДЕЛИРОВАНИЕ НОГТЕЙ____________1900руб.</p>
+         <p class="intro__text">КОРРЕКЦИЯ НОГТЕЙ__________________1600руб.</p>
+         <p class="intro__text">УКРЕПЛЕНИЕ (ПОКРЫТИЕ)____________1500руб.</p>
+         <p class="intro__text">НАРАЩИВАНИЕ (1 НОГОТЬ)____________190руб.</p>
+         <p class="intro__text">СНЯТИЕ НОГТЕЙ______________________350руб.</p>
+         <p class="intro__text">ДИЗАЙН_____________________________от 50 руб.</p>
+         <p class="intro__text">ФРЕНЧ,ГРИДИЕНТ______________________200руб.</p>
+    </div>    
+    <div class="intro__link">
+        <h1 class="intro__heading">
+            SMART ПЕДИКЮР
+        </h1>
+        <p class="intro__text">ОБРАБОТКА СТОПЫ___________________1300руб.</p>
+        <p class="intro__texts">ОБРАБОТКА ПАЛЬЧИКОВ                 </p>
+        <p class="intro__text">(БЕЗ ПОКРЫТИЯ)______________________1300руб.</p>
+        <p class="intro__text">ОБРАБОТКА ПАЛЬЧИКОВ<br>С ПОКРЫТИЕМ_________________________1500руб.</p>
+        <p class="intro__text">ПОЛНАЯ ОБРАБОТКА БЕЗ ПОКРЫТИЯ____2000 руб.</p>
+        <p class="intro__text">ПОЛНАЯ ОБРАБОТКА С ПОКРЫТИЕМ____________________________2300руб.</p>
+        <p class="intro__text">ПРОТЕЗИРОВАНИЕ НОГТЯ________________200руб.</p>
+        <p class="intro__text">РАБОТА С ОНИХОЛИЗИСОМ____________от 100руб.</p>
+    </div>
+   
+    </section>
+    <footer class="footer">
+        <div class="footer__content section">
+        </div>
+        <div class="footer__copy-links">
+            <a class="footer__link" href="https://vk.com/manikurshasolnechn24">
+                <img class="iconki__imgs" src="../images/vk2.png" alt="vk">
+            </a>
+            <a class="footer__link" href="https://wa.me/79233735200">
+                <img class="iconki__imgs" src="../images/whatsapp.png" alt="whatsapp">
+            </a>
+            <a class="footer__link" href="https://vk.com/away.php?to=https%3A%2F%2Ft.me%2Fmanikursha124&cc_key=">
+                <img class="iconki__imgs" src="../images/telega.png" alt="telegram">
+            </a>
+        </div>
+      </footer>
+</body>
+</html>
